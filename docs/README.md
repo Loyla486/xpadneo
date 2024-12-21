@@ -26,7 +26,7 @@ Quote from [@atar-axis (Florian Dollinger)](https://github.com/atar-axis), creat
 ## Other Projects
 
 * [xow](https://github.com/medusalix/xow) is a driver for the Xbox One S controllers, too, and supports the native
-  dongles packaged with the controller. Kudos to [@medusalix](https://github.com/medusalix) for working together on
+  adaptors packaged with the controller. Kudos to [@medusalix](https://github.com/medusalix) for working together on
   finding some work-arounds for controller firmware bugs.
 * [xpad](https://github.com/paroj/xpad) supports this and many other controllers in USB mode.
 * [xone](https://github.com/medusalix/xone) is a driver aiming for fully supporting all Microsoft GIP devices thus
@@ -96,7 +96,7 @@ PID 0x0B22 while the other models identify with PID 0x0B13. This has some known 
 ## Unavailable Features
 
 Across all models, xpadneo won't support audio features of the controllers because the firmware doesn't support audio
-in Bluetooth mode. In the future, xpadneo may support audio when USB and dongle support will be added.
+in Bluetooth mode. In the future, xpadneo may support audio when USB and adaptor support will be added.
 
 
 ### Xbox One S Wireless Controller
@@ -121,7 +121,7 @@ Full support for the Xbox Series X|S controller is present including the share b
 mapped to keyboard event `KEY_F12` to take screenshots with Steam. It will be configurable in the future. This
 controller uses emulated profile switching support (see below).
 
-This controller uses BLE (Bluetooth low energy) and can only be supported if your Bluetooth dongle also supports BLE.
+This controller uses BLE (Bluetooth low energy) and can only be supported if your Bluetooth adaptor also supports BLE.
 
 **Known problems:** The controller may not properly set its connection parameters, resulting in laggy and choppy
 input experience. See also: [Troubleshooting](https://atar-axis.github.io/xpadneo/#troubleshooting).
@@ -345,4 +345,4 @@ You will find there e.g. the following sections
 
 * [Troubleshooting](https://atar-axis.github.io/xpadneo/#troubleshooting)
 * [Debugging](https://atar-axis.github.io/xpadneo/#debugging)
-* [Compatible BT Dongles](https://atar-axis.github.io/xpadneo/#bt-dongles)
+* [Compatible BT adaptors](https://atar-axis.github.io/xpadneo/#bt-dongles)
