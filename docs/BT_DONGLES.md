@@ -1,6 +1,6 @@
-## BT Dongles
+## BT Adapters
 
-Please report your Dongles and how they work [here](https://github.com/atar-axis/xpadneo/issues/93)
+Please report your Adapters and how they work [here](https://github.com/atar-axis/xpadneo/issues/93)
 
 
 ## Bluetooth Low Energy
